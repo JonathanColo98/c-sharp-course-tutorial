@@ -5,3 +5,10 @@ C:\workspaceC-Sharp\tutorialCorsoC-Sharp\Esercizio_1\Esercizio_1\obj\Debug\Eserc
 C:\workspaceC-Sharp\tutorialCorsoC-Sharp\Esercizio_1\Esercizio_1\obj\Debug\Esercizio_1.csproj.CoreCompileInputs.cache
 C:\workspaceC-Sharp\tutorialCorsoC-Sharp\Esercizio_1\Esercizio_1\obj\Debug\Esercizio_1.exe
 C:\workspaceC-Sharp\tutorialCorsoC-Sharp\Esercizio_1\Esercizio_1\obj\Debug\Esercizio_1.pdb
+C:\workspaceC-Sharp\c-sharp-course-tutorial\Esercizio_1\Esercizio_1\bin\Debug\Esercizio_1.pdb
+C:\workspaceC-Sharp\c-sharp-course-tutorial\Esercizio_1\Esercizio_1\obj\Debug\Esercizio_1.csproj.AssemblyReference.cache
+C:\workspaceC-Sharp\c-sharp-course-tutorial\Esercizio_1\Esercizio_1\obj\Debug\Esercizio_1.csproj.CoreCompileInputs.cache
+C:\workspaceC-Sharp\c-sharp-course-tutorial\Esercizio_1\Esercizio_1\obj\Debug\Esercizio_1.pdb
+C:\workspaceC-Sharp\c-sharp-course-tutorial\Esercizio_1\Esercizio_1\bin\Debug\Esercizio_1.exe.config
+C:\workspaceC-Sharp\c-sharp-course-tutorial\Esercizio_1\Esercizio_1\bin\Debug\Esercizio_1.exe
+C:\workspaceC-Sharp\c-sharp-course-tutorial\Esercizio_1\Esercizio_1\obj\Debug\Esercizio_1.exe
