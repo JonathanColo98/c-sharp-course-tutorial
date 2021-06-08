@@ -69,21 +69,21 @@ namespace Esercizio_1
                         case '1': // Somma
                             {
                                 result = number1 + number2;
-                                Console.WriteLine(number1 + " + " + number2 + " = " + result);
+                                Console.WriteLine(number1.ToString() + " + " + number2.ToString() + " = " + result);
                                 break;
                             }
 
                         case '2': // Sottrazione
                             {
                                 result = number1 - number2;
-                                Console.WriteLine(number1 + " - " + number2 + " = " + result);
+                                Console.WriteLine(number1.ToString() + " - " + number2.ToString() + " = " + result);
                                 break;
                             }
 
                         case '3': // Moltiplicazione
                             {
                                 result = number1 * number2;
-                                Console.WriteLine(number1 + " * " + number2 + " = " + result);
+                                Console.WriteLine(number1.ToString() + " * " + number2.ToString() + " = " + result);
                                 break;
                             }
 
@@ -92,7 +92,7 @@ namespace Esercizio_1
                                 if (number2 != 0)
                                 {
                                     result = number1 / number2;
-                                    Console.WriteLine(number1 + " / " + number2 + " = " + result);
+                                    Console.WriteLine(number1.ToString() + " / " + number2.ToString() + " = " + result);
                                 }
                                 break;
                             }
