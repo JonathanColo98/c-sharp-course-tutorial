@@ -10,7 +10,8 @@ namespace Esercizio_1
     {
         static void Main(string[] args)
         {
-            // commento
+            // commento 
+
             DateTime today = DateTime.Now;
             Console.WriteLine("Data:{0}", today);
             Console.WriteLine("Giorno:{0:D}", today);
