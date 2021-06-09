@@ -1,0 +1,6 @@
+C:\workspaceC-Sharp\c-sharp-course-tutorial\Motorizzazione\Motorizzazione\bin\Debug\Motorizzazione.dll
+C:\workspaceC-Sharp\c-sharp-course-tutorial\Motorizzazione\Motorizzazione\bin\Debug\Motorizzazione.pdb
+C:\workspaceC-Sharp\c-sharp-course-tutorial\Motorizzazione\Motorizzazione\obj\Debug\Motorizzazione.csproj.AssemblyReference.cache
+C:\workspaceC-Sharp\c-sharp-course-tutorial\Motorizzazione\Motorizzazione\obj\Debug\Motorizzazione.csproj.CoreCompileInputs.cache
+C:\workspaceC-Sharp\c-sharp-course-tutorial\Motorizzazione\Motorizzazione\obj\Debug\Motorizzazione.dll
+C:\workspaceC-Sharp\c-sharp-course-tutorial\Motorizzazione\Motorizzazione\obj\Debug\Motorizzazione.pdb
