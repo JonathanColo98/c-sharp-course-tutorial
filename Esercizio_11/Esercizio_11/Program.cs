@@ -57,7 +57,7 @@ namespace Esercizio_11
             using (TextReader reader = new StreamReader(@""))
             {
                 XmlSerializer serializer = new XmlSerializer(typeof(CarCollection));
-                return (CarCollection)serializer.Deserialize(reader);
+                return (CarCollection) serializer.Deserialize(reader);
             }
         }
     }
