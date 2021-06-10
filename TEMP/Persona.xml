@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PersonalDetails xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Address>
+    <HouseNo>12</HouseNo>
+    <StreetName>Via XX Settembre, 12</StreetName>
+    <City>Milano</City>
+  </Address>
+  <Name>Stefano</Name>
+  <Age>43</Age>
+</PersonalDetails>
