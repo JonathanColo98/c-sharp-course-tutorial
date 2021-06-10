@@ -1,0 +1,10 @@
+C:\workspaceC-Sharp\c-sharp-course-tutorial\Esercizio_9\Esercizio_9\bin\Debug\Esercizio_9.exe.config
+C:\workspaceC-Sharp\c-sharp-course-tutorial\Esercizio_9\Esercizio_9\bin\Debug\Esercizio_9.exe
+C:\workspaceC-Sharp\c-sharp-course-tutorial\Esercizio_9\Esercizio_9\bin\Debug\Esercizio_9.pdb
+C:\workspaceC-Sharp\c-sharp-course-tutorial\Esercizio_9\Esercizio_9\obj\Debug\Esercizio_9.csproj.AssemblyReference.cache
+C:\workspaceC-Sharp\c-sharp-course-tutorial\Esercizio_9\Esercizio_9\obj\Debug\Esercizio_9.Form_Home.resources
+C:\workspaceC-Sharp\c-sharp-course-tutorial\Esercizio_9\Esercizio_9\obj\Debug\Esercizio_9.Properties.Resources.resources
+C:\workspaceC-Sharp\c-sharp-course-tutorial\Esercizio_9\Esercizio_9\obj\Debug\Esercizio_9.csproj.GenerateResource.cache
+C:\workspaceC-Sharp\c-sharp-course-tutorial\Esercizio_9\Esercizio_9\obj\Debug\Esercizio_9.csproj.CoreCompileInputs.cache
+C:\workspaceC-Sharp\c-sharp-course-tutorial\Esercizio_9\Esercizio_9\obj\Debug\Esercizio_9.exe
+C:\workspaceC-Sharp\c-sharp-course-tutorial\Esercizio_9\Esercizio_9\obj\Debug\Esercizio_9.pdb
