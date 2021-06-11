@@ -1,0 +1,7 @@
+C:\workspaceC-Sharp\c-sharp-course-tutorial\Esercizio_10\Esercizio_10\bin\Debug\Esercizio_10.exe.config
+C:\workspaceC-Sharp\c-sharp-course-tutorial\Esercizio_10\Esercizio_10\bin\Debug\Esercizio_10.exe
+C:\workspaceC-Sharp\c-sharp-course-tutorial\Esercizio_10\Esercizio_10\bin\Debug\Esercizio_10.pdb
+C:\workspaceC-Sharp\c-sharp-course-tutorial\Esercizio_10\Esercizio_10\obj\Debug\Esercizio_10.csproj.AssemblyReference.cache
+C:\workspaceC-Sharp\c-sharp-course-tutorial\Esercizio_10\Esercizio_10\obj\Debug\Esercizio_10.csproj.CoreCompileInputs.cache
+C:\workspaceC-Sharp\c-sharp-course-tutorial\Esercizio_10\Esercizio_10\obj\Debug\Esercizio_10.exe
+C:\workspaceC-Sharp\c-sharp-course-tutorial\Esercizio_10\Esercizio_10\obj\Debug\Esercizio_10.pdb

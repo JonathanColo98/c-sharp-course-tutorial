@@ -9,7 +9,7 @@ using System.Xml.Serialization;
 
 // Creare un file di xml di prova e specificare la PATH per testarlo
 
-namespace Esercizio_11
+namespace Esercizio_10
 {
     [Serializable()]
     public class Car
@@ -32,7 +32,7 @@ namespace Esercizio_11
         [XmlArrayItem("Car", typeof(Car))]
         public Car[] Car { get; set; }
     }
-    
+
     class Program
     {
         static void Main(string[] args)
@@ -57,7 +57,7 @@ namespace Esercizio_11
             using (TextReader reader = new StreamReader(@""))
             {
                 XmlSerializer serializer = new XmlSerializer(typeof(CarCollection));
-                return (CarCollection) serializer.Deserialize(reader);
+                return (CarCollection)serializer.Deserialize(reader);
             }
         }
     }
