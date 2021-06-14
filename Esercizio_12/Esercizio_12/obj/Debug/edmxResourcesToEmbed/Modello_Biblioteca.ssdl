@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BibliotecaModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="tbl_Utenti">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NomeUtente" Type="nvarchar" MaxLength="40" Nullable="false" />
+    <Property Name="Password" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="Nome" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="Cognome" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="Reparto" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="Livello" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="BibliotecaModelStoreContainer">
+    <EntitySet Name="tbl_Utenti" EntityType="Self.tbl_Utenti" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

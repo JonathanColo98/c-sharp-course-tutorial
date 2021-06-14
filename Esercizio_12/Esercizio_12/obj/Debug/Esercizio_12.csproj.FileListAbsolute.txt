@@ -1,0 +1,16 @@
+C:\workspaceC-Sharp\c-sharp-course-tutorial\Esercizio_12\Esercizio_12\bin\Debug\Esercizio_12.exe.config
+C:\workspaceC-Sharp\c-sharp-course-tutorial\Esercizio_12\Esercizio_12\bin\Debug\Esercizio_12.exe
+C:\workspaceC-Sharp\c-sharp-course-tutorial\Esercizio_12\Esercizio_12\bin\Debug\Esercizio_12.pdb
+C:\workspaceC-Sharp\c-sharp-course-tutorial\Esercizio_12\Esercizio_12\bin\Debug\EntityFramework.dll
+C:\workspaceC-Sharp\c-sharp-course-tutorial\Esercizio_12\Esercizio_12\bin\Debug\EntityFramework.SqlServer.dll
+C:\workspaceC-Sharp\c-sharp-course-tutorial\Esercizio_12\Esercizio_12\bin\Debug\EntityFramework.xml
+C:\workspaceC-Sharp\c-sharp-course-tutorial\Esercizio_12\Esercizio_12\bin\Debug\EntityFramework.SqlServer.xml
+C:\workspaceC-Sharp\c-sharp-course-tutorial\Esercizio_12\Esercizio_12\bin\Debug\it\EntityFramework.resources.dll
+C:\workspaceC-Sharp\c-sharp-course-tutorial\Esercizio_12\Esercizio_12\obj\Debug\Esercizio_12.csproj.AssemblyReference.cache
+C:\workspaceC-Sharp\c-sharp-course-tutorial\Esercizio_12\Esercizio_12\obj\Debug\Esercizio_12.frm_Elenco.resources
+C:\workspaceC-Sharp\c-sharp-course-tutorial\Esercizio_12\Esercizio_12\obj\Debug\Esercizio_12.Properties.Resources.resources
+C:\workspaceC-Sharp\c-sharp-course-tutorial\Esercizio_12\Esercizio_12\obj\Debug\Esercizio_12.csproj.GenerateResource.cache
+C:\workspaceC-Sharp\c-sharp-course-tutorial\Esercizio_12\Esercizio_12\obj\Debug\Esercizio_12.csproj.CoreCompileInputs.cache
+C:\workspaceC-Sharp\c-sharp-course-tutorial\Esercizio_12\Esercizio_12\obj\Debug\Esercizio_12.csproj.CopyComplete
+C:\workspaceC-Sharp\c-sharp-course-tutorial\Esercizio_12\Esercizio_12\obj\Debug\Esercizio_12.exe
+C:\workspaceC-Sharp\c-sharp-course-tutorial\Esercizio_12\Esercizio_12\obj\Debug\Esercizio_12.pdb
