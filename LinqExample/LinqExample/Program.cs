@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -343,7 +344,7 @@ namespace LinqExample
 
             //Dump(query20);
 
-            // operatore Distinct
+            // operatore Distincts
             int[] array1 = { 1, 2, 3, 4, 5, 3, 4, 5 };
             int[] array2 = { 1, 2, 3, 4, 6, 7, 8 };
             var queryDistinct = array1.Distinct();
@@ -412,15 +413,136 @@ namespace LinqExample
 
             // TakeWhile = restituisce i primi elementi che soddisfano una condizione e salta il resto
             var query26 = arrayIntegers.TakeWhile(number => number < 3);
-            Dump(query26);
-
-            F1Team team = teams.ElementAt(0);
+            //Dump(query26);
 
 
+            F1Team teamF1 = teams.ElementAt(0);
 
+            int countTeam = teams.Count(team => team.Wins > 0);
+            /*
+            Console.WriteLine(countTeam.ToString());
+            Console.ReadKey();
+            */
 
-        
-        
+            int[] arrayToSum = { 1, 2, 3, 4, 5 };
+            int sum = arrayToSum.Sum();
+            /*
+            Console.WriteLine(sum.ToString());
+            Console.ReadKey();
+            */
+
+            // calcolare il punteggio totale della scuderia attraverso il punteggio dei corrispettivi piloti
+            var query27 = from team in teams
+                          let points = team.Pilots.Sum(pilot => pilot.Points)
+                          orderby points descending
+                          select new { team.TeamName, points };
+
+            //Dump(query27);
+
+            var queryAverage = from team in teams
+                               select new { team.TeamName,
+                                            AveragePoints = team.Pilots.Average(pilot => pilot.Points) };
+
+            //Dump(queryAverage);
+
+            int maxValuePoints = (from team in teams
+                                  from pilot in team.Pilots
+                                  select pilot).Max(pilot => pilot.Points);
+
+            int minValuePoints = (from team in teams
+                                  from pilot in team.Pilots
+                                  select pilot).Min(pilot => pilot.Points);
+            /*
+            Console.WriteLine("Max: {0}", maxValuePoints);
+            Console.WriteLine("Min: {0}", minValuePoints);
+            Console.ReadKey();
+            */
+
+            string phrase = "senatus populus que romanus";
+            var acronym = phrase.Split(' ').Aggregate("", (result, word) => result + word.ToUpper()[0] + " . ");
+            //Console.WriteLine(acronym);
+            //Console.ReadKey();
+
+            var queryAggregate = from team in teams
+                                 select new { Points = team.Pilots.Aggregate(0, (total, pilot) => total + pilot.Points) };
+
+            //Dump(queryAggregate);
+
+            IList<F1Team> listResult = teams.Where(team => team.TeamName.ToUpper().StartsWith("M")).ToList();
+            /*
+            foreach (F1Team team in listResult)
+            {
+                Console.WriteLine(team.ToString());
+            }
+            Console.ReadKey();
+            */
+
+            Pilot[] arrayPilots = teams.SelectMany(team => team.Pilots).ToArray();
+            /*
+            foreach (Pilot pilot in arrayPilots)
+            {
+                Console.WriteLine(pilot.FirstName);
+            }
+            Console.ReadKey();
+            */
+
+            Dictionary<string, Pilot[]> dictionary = (from team in teams
+                                                      where team.Wins > 0
+                                                      select team)
+                                                      .ToDictionary(team => team.TeamName, team => team.Pilots);
+            /*
+            foreach (string key in dictionary.Keys)
+            {
+                Console.WriteLine(key);
+                foreach (Pilot pilot in dictionary[key])
+                {
+                    Console.WriteLine("- {0} : {1}", pilot.LastName, pilot.Points);
+                }
+            }
+            Console.ReadKey();
+            */
+
+            // OfType = filtra la sequenza restituendo gli elementi del tipo specificato
+            List<object> list = new List<object>() { "a", 1, "b", 2, "c"};
+            var strings = list.OfType<string>();
+
+            List<string> listString = new List<string>() { "a", "b", "c"};
+            var objects = listString.Cast<object>();
+
+            var months = Enumerable.Range(1, 12)
+                                   .Select(numberMonth => CultureInfo.CurrentCulture.DateTimeFormat.GetMonthName(numberMonth))
+                                   .ToList();
+            /*
+            months.ForEach(Console.WriteLine);
+            Console.ReadKey();
+            */
+
+            int[] arrayReapeted = Enumerable.Repeat<int>(1, 10).ToArray();
+
+            IEnumerable<Pilot> pilotsEmpty = Enumerable.Empty<Pilot>();
+
+            /*
+            foreach (var pilot in pilots.DefaultIfEmpty(new Pilot() { LastName = "Sconosciuto"}))
+            {
+                Console.WriteLine(pilot.LastName);
+            }
+            Console.ReadKey();
+            */
+
+            var s1 = Enumerable.Range(1, 5);
+            var s2 = Enumerable.Range(6, 5);
+            var concat = s1.Concat(s2);
+            /*
+            foreach (var elem in concat)
+            {
+                Console.WriteLine(elem.ToString());
+            }
+            Console.ReadKey();
+            */
+
+            bool equalSequence = s1.SequenceEqual(s2);
+            Console.WriteLine(equalSequence.ToString());
+            Console.ReadKey();
         }
     }
 }
