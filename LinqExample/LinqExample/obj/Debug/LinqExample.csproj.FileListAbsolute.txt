@@ -5,3 +5,10 @@ D:\workspace-c#\c-sharp-course-tutorial\LinqExample\LinqExample\obj\Debug\LinqEx
 D:\workspace-c#\c-sharp-course-tutorial\LinqExample\LinqExample\obj\Debug\LinqExample.csproj.CoreCompileInputs.cache
 D:\workspace-c#\c-sharp-course-tutorial\LinqExample\LinqExample\obj\Debug\LinqExample.exe
 D:\workspace-c#\c-sharp-course-tutorial\LinqExample\LinqExample\obj\Debug\LinqExample.pdb
+C:\workspaceC-Sharp\c-sharp-course-tutorial\LinqExample\LinqExample\bin\Debug\LinqExample.exe.config
+C:\workspaceC-Sharp\c-sharp-course-tutorial\LinqExample\LinqExample\bin\Debug\LinqExample.exe
+C:\workspaceC-Sharp\c-sharp-course-tutorial\LinqExample\LinqExample\bin\Debug\LinqExample.pdb
+C:\workspaceC-Sharp\c-sharp-course-tutorial\LinqExample\LinqExample\obj\Debug\LinqExample.csproj.AssemblyReference.cache
+C:\workspaceC-Sharp\c-sharp-course-tutorial\LinqExample\LinqExample\obj\Debug\LinqExample.csproj.CoreCompileInputs.cache
+C:\workspaceC-Sharp\c-sharp-course-tutorial\LinqExample\LinqExample\obj\Debug\LinqExample.exe
+C:\workspaceC-Sharp\c-sharp-course-tutorial\LinqExample\LinqExample\obj\Debug\LinqExample.pdb

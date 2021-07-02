@@ -304,7 +304,7 @@ namespace LinqExample
 
             //Dump(query18);
 
-            // solita query con lambda expression
+            // solita query18 con lambda expression
             var query18A = teams.SelectMany(team => team.Pilots)
                                  .Join(Country.All,
                                        pilot => pilot.IdCountry,
@@ -313,7 +313,7 @@ namespace LinqExample
                                        );
             
             //Dump(query18A);
-
+            // si ricavano i piloti che appartengono nello stesso paese di provenienza 
             var pilots = from team in teams
                          from pilot in team.Pilots
                          select pilot;
@@ -322,7 +322,7 @@ namespace LinqExample
                           join pilot in pilots on country.IdCountry equals pilot.IdCountry
                           into pilotSxCountry
                           select new { CountryName = country.Name, Pilots = pilotSxCountry };
-            /*
+            /* Si stampano i risultati ricavati dalla query 19
             foreach (var group in query19)
             {
                 Console.WriteLine(group.CountryName);
@@ -334,6 +334,93 @@ namespace LinqExample
             Console.ReadKey();
             */
 
+            IEnumerable<Pilot> enumerablePilots = teams.SelectMany(team => team.Pilots);
+
+            var query20 = Country.All.GroupJoin(pilots, // collezione interna
+                                                country => country.IdCountry, // chiave esterna
+                                                pilot => pilot.IdCountry, // chiave esterna
+                                                (country, pilot) => new { country.Name, pilot});
+
+            //Dump(query20);
+
+            // operatore Distinct
+            int[] array1 = { 1, 2, 3, 4, 5, 3, 4, 5 };
+            int[] array2 = { 1, 2, 3, 4, 6, 7, 8 };
+            var queryDistinct = array1.Distinct();
+            //Dump(queryDistinct);
+
+            var pilotsDistinct = (from team in teams
+                                  from pilot in team.Pilots
+                                  select pilot.FirstName).Distinct();
+
+            //Dump(pilotsDistinct);
+
+            // Insieme unione
+            var union = array1.Union(array2);
+            //Dump(union);
+
+            // Insieme Differenza
+            var except = array1.Except(array2);
+            //Dump(except);
+
+            // Insieme intersezione
+            var intersect = array1.Intersect(array2);
+            //Dump(intersect);
+
+            // Somma di elementi a 2 a 2
+            var zip = array1.Zip(array2, (firstArg, secArg) => firstArg + secArg);
+            //Dump(zip);
+
+            int[] array = { 1, 2, 3, 4 };
+            bool boolean = array.Contains(1);
+            /*
+            Console.WriteLine(boolean);
+            Console.ReadKey();
+            */
+
+            // All = verifica una condizione e restituisce un booleano
+            bool b = array.All(element => element > 0);
+            /*
+            Console.WriteLine(boolean);
+            Console.ReadKey();
+            */
+
+            // mostrare teams con piloti che hanno totalizzato un punteggio maggiore di zero 
+            var query21 = teams.Where(team => team.Pilots.All(pilot => pilot.Points > 0));
+            //Dump(query21);
+
+            // Any = stesso di All ma verifica che ALMENO un elemento soddisfi la condizione
+            var query22 = teams.Where(team => team.Pilots.Any(pilot => pilot.Points > 100));
+            //Dump(query22);
+
+            int[] arrayIntegers = { 1, 1, 2, 3, 1, 2, 1, 3 };
+
+            // Skip = salta un certo numeri di elementi specificato e restituisce una sequenza
+            // di elementi costituita da quelli rimanenti
+            var query23 = arrayIntegers.Skip(4);
+            //Dump(query23);
+
+            // SkipWhile = salta degli elementi fino a quando una determinata condizione rimane vera
+            // e restituisce il resto della sequenza
+
+            var query24 = arrayIntegers.SkipWhile(number => number < 3);
+            //Dump(query24);
+
+            // Take = restituisce i primi n elementi di una sequenza
+            var query25 = arrayIntegers.Take(4);
+            //Dump(query25);
+
+            // TakeWhile = restituisce i primi elementi che soddisfano una condizione e salta il resto
+            var query26 = arrayIntegers.TakeWhile(number => number < 3);
+            Dump(query26);
+
+            F1Team team = teams.ElementAt(0);
+
+
+
+
+        
+        
         }
     }
 }
