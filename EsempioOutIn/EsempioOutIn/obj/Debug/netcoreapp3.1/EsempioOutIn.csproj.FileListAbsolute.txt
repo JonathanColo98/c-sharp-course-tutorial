@@ -1,0 +1,13 @@
+C:\workspaceC-Sharp\c-sharp-course-tutorial\EsempioOutIn\EsempioOutIn\bin\Debug\netcoreapp3.1\EsempioOutIn.exe
+C:\workspaceC-Sharp\c-sharp-course-tutorial\EsempioOutIn\EsempioOutIn\bin\Debug\netcoreapp3.1\EsempioOutIn.deps.json
+C:\workspaceC-Sharp\c-sharp-course-tutorial\EsempioOutIn\EsempioOutIn\bin\Debug\netcoreapp3.1\EsempioOutIn.runtimeconfig.json
+C:\workspaceC-Sharp\c-sharp-course-tutorial\EsempioOutIn\EsempioOutIn\bin\Debug\netcoreapp3.1\EsempioOutIn.runtimeconfig.dev.json
+C:\workspaceC-Sharp\c-sharp-course-tutorial\EsempioOutIn\EsempioOutIn\bin\Debug\netcoreapp3.1\EsempioOutIn.dll
+C:\workspaceC-Sharp\c-sharp-course-tutorial\EsempioOutIn\EsempioOutIn\bin\Debug\netcoreapp3.1\EsempioOutIn.pdb
+C:\workspaceC-Sharp\c-sharp-course-tutorial\EsempioOutIn\EsempioOutIn\obj\Debug\netcoreapp3.1\EsempioOutIn.csproj.AssemblyReference.cache
+C:\workspaceC-Sharp\c-sharp-course-tutorial\EsempioOutIn\EsempioOutIn\obj\Debug\netcoreapp3.1\EsempioOutIn.AssemblyInfoInputs.cache
+C:\workspaceC-Sharp\c-sharp-course-tutorial\EsempioOutIn\EsempioOutIn\obj\Debug\netcoreapp3.1\EsempioOutIn.AssemblyInfo.cs
+C:\workspaceC-Sharp\c-sharp-course-tutorial\EsempioOutIn\EsempioOutIn\obj\Debug\netcoreapp3.1\EsempioOutIn.csproj.CoreCompileInputs.cache
+C:\workspaceC-Sharp\c-sharp-course-tutorial\EsempioOutIn\EsempioOutIn\obj\Debug\netcoreapp3.1\EsempioOutIn.dll
+C:\workspaceC-Sharp\c-sharp-course-tutorial\EsempioOutIn\EsempioOutIn\obj\Debug\netcoreapp3.1\EsempioOutIn.pdb
+C:\workspaceC-Sharp\c-sharp-course-tutorial\EsempioOutIn\EsempioOutIn\obj\Debug\netcoreapp3.1\EsempioOutIn.genruntimeconfig.cache
