@@ -67,12 +67,37 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Calcolatrice.aspx" />
+    <Content Include="Home.aspx" />
+    <Content Include="My.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Calcolatrice.aspx.cs">
+      <DependentUpon>Calcolatrice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Calcolatrice.aspx.designer.cs">
+      <DependentUpon>Calcolatrice.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Modello.Master.cs">
+      <DependentUpon>Modello.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Modello.Master.designer.cs">
+      <DependentUpon>Modello.Master</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Modello.Master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
