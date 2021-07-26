@@ -1,0 +1,7 @@
+C:\workspaceC-Sharp\c-sharp-course-tutorial\Esercizio_Convertitore\Esercizio_Convertitore\bin\Debug\Esercizio_Convertitore.dll.config
+C:\workspaceC-Sharp\c-sharp-course-tutorial\Esercizio_Convertitore\Esercizio_Convertitore\bin\Debug\Esercizio_Convertitore.dll
+C:\workspaceC-Sharp\c-sharp-course-tutorial\Esercizio_Convertitore\Esercizio_Convertitore\bin\Debug\Esercizio_Convertitore.pdb
+C:\workspaceC-Sharp\c-sharp-course-tutorial\Esercizio_Convertitore\Esercizio_Convertitore\obj\Debug\Esercizio_Convertitore.csproj.AssemblyReference.cache
+C:\workspaceC-Sharp\c-sharp-course-tutorial\Esercizio_Convertitore\Esercizio_Convertitore\obj\Debug\Esercizio_Convertitore.csproj.CoreCompileInputs.cache
+C:\workspaceC-Sharp\c-sharp-course-tutorial\Esercizio_Convertitore\Esercizio_Convertitore\obj\Debug\Esercizio_Convertitore.dll
+C:\workspaceC-Sharp\c-sharp-course-tutorial\Esercizio_Convertitore\Esercizio_Convertitore\obj\Debug\Esercizio_Convertitore.pdb

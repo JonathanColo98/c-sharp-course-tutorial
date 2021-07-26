@@ -1,0 +1,10 @@
+C:\workspaceC-Sharp\c-sharp-course-tutorial\TournamentTracker\TrackerUI\bin\Debug\TrackerUI.exe.config
+C:\workspaceC-Sharp\c-sharp-course-tutorial\TournamentTracker\TrackerUI\bin\Debug\TrackerUI.exe
+C:\workspaceC-Sharp\c-sharp-course-tutorial\TournamentTracker\TrackerUI\bin\Debug\TrackerUI.pdb
+C:\workspaceC-Sharp\c-sharp-course-tutorial\TournamentTracker\TrackerUI\obj\Debug\TrackerUI.csproj.AssemblyReference.cache
+C:\workspaceC-Sharp\c-sharp-course-tutorial\TournamentTracker\TrackerUI\obj\Debug\TrackerUI.Properties.Resources.resources
+C:\workspaceC-Sharp\c-sharp-course-tutorial\TournamentTracker\TrackerUI\obj\Debug\TrackerUI.TournamentViewerForm.resources
+C:\workspaceC-Sharp\c-sharp-course-tutorial\TournamentTracker\TrackerUI\obj\Debug\TrackerUI.csproj.GenerateResource.cache
+C:\workspaceC-Sharp\c-sharp-course-tutorial\TournamentTracker\TrackerUI\obj\Debug\TrackerUI.csproj.CoreCompileInputs.cache
+C:\workspaceC-Sharp\c-sharp-course-tutorial\TournamentTracker\TrackerUI\obj\Debug\TrackerUI.exe
+C:\workspaceC-Sharp\c-sharp-course-tutorial\TournamentTracker\TrackerUI\obj\Debug\TrackerUI.pdb
